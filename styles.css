@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    /* right: 0;
+    bottom: 0; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 5px;
+}
+
+
+/* top half */
+
+.top {
+    background-color: hsl(0, 0%, 100%);
+    flex-basis: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 6.25%;
+    padding-right: 10%;
+    line-height: 2rem;
+}
+
+
+.top p {
+    color: hsl(225, 6%, 76%);
+}
+
+h1 {
+    color: hsl(179, 40%, 61%);
+    font-weight: 700;
+}
+
+h2 {
+    color: hsl(70, 67%, 56%);
+}
+
+
+/* Left side of bottom half */
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    flex-basis: 50%;
+    border-bottom-left-radius: 10px;
+    text-align: justify;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.left h3 {
+    padding-left: 12.5%;
+}
+
+.left .dollar {
+    font-size: 2rem;
+}
+
+.left p {
+    padding-left: 12.5%;
+}
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    width: 75%;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(58, 26, 26, 0.3);
+}
+
+
+/* Rigth side of bottom half */
+
+.right {
+    background-color: hsl(179, 47%, 52%);
+    flex-basis: 50%;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.right ul {
+    list-style: none;
+}
+
+ul {
+    font-weight: 200;
+}
+
+.right h3 {
+    padding-left: 12.5%;
+}
+
+
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
